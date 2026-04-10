@@ -240,7 +240,7 @@ def generate_weekly_plan(user: UserProfile) -> List[WorkoutPlan]:
 # STREAMLIT UI
 # ============================================================
 
-st.title("Workout Generator")
+st.title("67 Workout Generator")
 
 st.subheader("Enter Your Information")
 
