@@ -240,13 +240,13 @@ def generate_weekly_plan(user: UserProfile) -> List[WorkoutPlan]:
 # STREAMLIT UI
 # ============================================================
 
-st.title("67 Workout Generator")
+st.title("Workout Generator")
 
 st.subheader("Enter Your Information")
 
-name = st.text_input("Name", "Athlete")
+name = st.text_input("Name", "First, Last")
 age = st.slider("Age", 12, 90, 18)
-gender = st.selectbox("Gender", ["male", "female", "other"])
+gender = st.selectbox("Gender", ["Male", "Female", "Other"])
 
 col1, col2 = st.columns(2)
 with col1:
