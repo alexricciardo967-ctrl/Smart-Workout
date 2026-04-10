@@ -256,9 +256,9 @@ with col2:
 
 weight_lb = st.number_input("Weight (lb)", 70, 400, 150)
 
-fitness_level = st.selectbox("Fitness Level", ["beginner", "intermediate", "advanced"])
-goal = st.selectbox("Primary Goal", ["strength", "endurance", "fat_loss", "speed", "general"])
-intensity = st.selectbox("Intensity", ["low", "moderate", "high"])
+fitness_level = st.selectbox("Fitness Level", ["Beginner", "Intermediate", "Advanced"])
+goal = st.selectbox("Primary Goal", ["Strength", "Endurance", "Fat Loss", "Speed", "General"])
+intensity = st.selectbox("Intensity", ["Low", "Moderate", "High"])
 time_minutes = st.slider("Workout Duration (minutes)", 15, 90, 30)
 
 st.subheader("Equipment Available")
