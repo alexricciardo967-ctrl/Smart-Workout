@@ -244,7 +244,7 @@ st.title("Workout Generator")
 
 st.subheader("Enter Your Information")
 
-name = st.text_input("Name", "First, Last")
+name = st.text_input("Name", "")
 age = st.slider("Age", 12, 90, 18)
 gender = st.selectbox("Gender", ["Male", "Female", "Other"])
 
